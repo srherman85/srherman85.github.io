@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="form.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header-menu-container-non-list">
+			<a href="index.html">
+				<div class="menu-item">Home</div>
+			</a>
+			<a href="contact_us.html">
+				<div class="menu-item">Contact Us</div>
+			</a>
+			
+			<div class="menu-item-list">
+				<div class="menu-item">The List</div>
+				<div class="list-menu-dropdown-container">
+
+					<a href="indonesia.html">
+					<div class="dropdown-item">
+						Indonesia
+						<img class="flag-thumbnail" src="assets/IndonesianFlag.png" alt="thumbail of Inodnesia's flag">
+					</div>
+					</a>
+
+					<a href="vietnam.html">
+					<div class="dropdown-item">
+						Vietnam
+						<img class="flag-thumbnail" src="assets/VietnamFlag.png" alt="thumbail of Vietnam's flag">
+					</div>
+					</a>
+
+					<a href="bangladesh.html">
+					<div class="dropdown-item">
+						Bangladesh
+						<img class="flag-thumbnail" src="assets/BangladeshFlag.png" alt="thumbail of Bangladesh's flag">
+					</div>
+					</a>
+
+					<a href="ukraine.html">
+					<div class="dropdown-item">
+					Ukraine
+					<img class="flag-thumbnail" src="assets/UkraineFlag.png" alt="thumbail of Ukraine's flag">
+					</div>
+					</a>
+
+					<a href="peru.html">
+					<div class="dropdown-item">
+					Peru
+					<img class="flag-thumbnail" src="assets/PeruMap.png" alt="thumbail of Peru's flag">
+					</div>
+					</a>
+
+					<a href="uzbekistan.html">
+					<div class="dropdown-item">
+					Uzbekistan
+					<img class="flag-thumbnail" src="assets/UzbekFlag.png" alt="thumbail of Uzbekistan's flag">
+					</div>
+					</a>
+
+					<a href="japan.html">
+					<div class="dropdown-item">
+					Japan
+					<img class="flag-thumbnail" src="assets/JapanFlag.png" alt="thumbail of Japan's flag">
+					</div>
+					</a>
+
+					<a href="saudi.html">
+					<div class="dropdown-item">
+					Saudi Arabia
+					<img class="flag-thumbnail" src="assets/SaudiFlag.png" alt="thumbail of Saudi Arabia's flag">
+					</div>
+					</a>
+
+					<a href="morocco.html">
+					<div class="dropdown-item">
+					Morocco
+					<img class="flag-thumbnail" src="assets/MoroccoFlag.png" alt="thumbail of Saudi Arabia's flag">
+					</div>
+					</a>
+
+					<a href="canada.html">
+					<div class="dropdown-item">
+					Canada
+					<img class="flag-thumbnail" src="assets/CanadaFlag.png" alt="thumbail of Canada's flag">
+					</div>
+					</a>
+			</div>	
+			</div>
+		</div>
+	</header>
+
+	<div class="page-body-container">
+		<div class="page-body-photo">
+			<img class="page-body-picture" src="assets/portraitShannon.jpg" alt="image of the website author, Shannon Herman">
+		</div>
+
+		<div class="page-body-text">
+			<p>
+				My name is Shannon Herman and I am currently pursuing a degree in Computer Science in Software Development. I grew up in a small town called <a href="https://www.google.com/maps/@35.2798633,-79.0619703,12z?entry=ttu" target="_blank">Spout Springs</a> in Harnett County, NC. I moved to the Raleigh-Durham area in 2019 and it has been home since then. 
+			</p>
+			<br>
+			<p>
+				Phone: 910-123-4567
+			</p>
+
+			<p>
+				Email: srherman@my.waketech.edu
+			</p>
+
+			<p>
+				Address: 123 Main St Raleigh, NC 27614
+			</p>
+			<br>
+			<p>
+				Please fill out the form below and provide feedback on the content of my website:
+			</p>
+		</div>
+	</div>
+
+	<form action="form-results.html" method="get" enctype="multipart/form-data" class="overall-form">
+		<div class="page-form-container">
+
+			<div class="form-box">
+				<div class="form-label">
+					<label for="first-name">First Name *</label>
+				</div>
+	
+				<div class="form-field">
+					<input type="text" name="first-name" id="first-name" required>
+				</div>
+			</div>
+	
+			<div class="form-box">
+				<div class="form-label">
+					<label for="last-name">Last Name *</label>
+				</div>
+	
+				<div class="form-field">
+					<input type="text" name="last-name" id="last-name" required>
+				</div>
+			</div>
+	
+			<div class="form-box">
+				<div class="form-label">
+					<label for="email">Email *</label>
+				</div>
+	
+				<div class="form-field">
+					<input type="email" name="email" id="email" required>
+				</div>
+			</div>
+	
+			<div class="form-box">
+				<div class="form-label">
+					<label for="phone-number">Phone Number *</label>
+				</div>
+	
+				<div class="form-field">
+					<input type="tel" name="phone-number" id="phone-number" required>
+				</div>
+			</div>
+
+			<div class="form-box">
+				<div class="form-label">
+					<label for="form-question-1">What is a country you wish more people knew about and why? *</label>
+				</div>
+	
+				<div class="form-field">
+					<textarea name="form-question-1" id="form-question-1"></textarea>
+				</div>
+			</div>
+	
+			<div class="form-box-last">
+				<div class="form-label">
+					<label for="form-question-2">Which country in this list would you be most interested in visiting? *</label>
+				</div>
+	
+				<div class="form-field">
+						<select class="form-dropbox" name="form-question-2" id="form-question-2" required>
+						<option value="" disabled selected>Select one...</option>
+						<option value="Indonesia">Indonesia</option>
+						<option value="Vietnam">Vietnam</option>
+						<option value="Bangladesh">Bangladesh</option>
+						<option value="Ukraine">Ukraine</option>
+						<option value="Peru">Peru</option>
+						<option value="Uzbekistan">Uzbekistan</option>
+						<option value="Japan">Japan</option>
+						<option value="Saudi Arabia">Saudi Arabia</option>
+						<option value="Morocco">Morocco</option>
+						<option value="Canada">Canada</option>
+						</select>
+				</div>
+
+				<div class="bottom-button-container">
+					<div class="submit-box">
+						<button class="submit-button" type="submit">Submit</button>
+					</div>
+		
+					<div class="reset-box">
+						<button class="reset-button" type="reset">Reset</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+
+
+
+
+	<div class="footer-text-non-list">
+			Copyright 2023
+	</div>
+
+</body>
+</html>
